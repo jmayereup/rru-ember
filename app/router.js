@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('cls', function() {
+    this.route('english1');
+  });
 });
 
 export default Router;
